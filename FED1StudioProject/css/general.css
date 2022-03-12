@@ -1,0 +1,46 @@
+﻿header{
+    border-top:solid;
+    border-right:solid;
+    border-left:solid;
+    border-bottom:solid;
+
+}
+#title{
+    background-color:slategray;
+    font-weight:bold;
+    font-size:48px;
+    color:midnightblue;
+    text-align:left;
+    margin-top:0px;
+    margin-bottom:0px;
+
+}
+#covidAlert{
+    background-color:darkorange;
+    color:black;
+    text-align:left;
+    font-size:24px;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+
+#navigation{
+    text-decoration:none;
+    font-weight:bold;
+    color:black;
+    border-top:solid;
+    margin-bottom:24px;
+}
+#socialMedia {
+    padding: 10px;
+    font-size: 30px;
+    text-align: right;    
+    text-decoration: none;
+    float:right;
+}
+    #foot{
+    font-style:italic;
+    border:solid;
+    clear:both;
+}
+

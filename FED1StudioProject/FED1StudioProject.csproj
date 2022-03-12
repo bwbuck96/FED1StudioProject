@@ -68,6 +68,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Class.html" />
+    <Content Include="css\general.css" />
+    <Content Include="css\index.css" />
+    <Content Include="images\facebook1.png" />
+    <Content Include="images\facebook2.png" />
+    <Content Include="images\insta1.png" />
+    <Content Include="images\insta2.png" />
+    <Content Include="images\school house.png" />
+    <Content Include="images\twitter1.png" />
+    <Content Include="images\twitter2.png" />
     <Content Include="Team.html" />
     <Content Include="Contact.html" />
     <Content Include="index.html" />
@@ -86,8 +95,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="css\" />
-    <Folder Include="images\" />
     <Folder Include="js\" />
   </ItemGroup>
   <PropertyGroup>
