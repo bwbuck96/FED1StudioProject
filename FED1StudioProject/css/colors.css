@@ -1,0 +1,44 @@
+﻿main {
+    background-color: #3B668C;
+}
+
+.tagLine {
+    background-color: #3B668C;
+    color: #AEBFBE;
+}
+
+.title {
+    background-color: #3B668C;
+    color: #AEBFBE;
+}
+
+#covidAlert {
+    background-color: darkorange;
+    color: black;
+}
+
+#navigation a {
+    color: black;
+}
+
+    #navigation a:hover, #navigation a:focus, #navigation a:active {
+        color: #BF7960;
+    }
+
+nav ul {
+    background-color: #3B668C;
+}
+
+nav li:hover {
+    background-color: #AEBFBE;
+}
+
+#aboutText {
+    color: black;
+}
+
+
+#aboutParagraph {
+    color: black;
+    text-decoration: none;
+}

@@ -3,36 +3,52 @@
     border-right:solid;
     border-left:solid;
     border-bottom:solid;
-
-}
-#title{
-    background-color:slategray;
-    font-weight:bold;
-    font-size:48px;
-    color:midnightblue;
-    text-align:left;
-    margin-top:0px;
     margin-bottom:0px;
 
 }
+.tagLine {
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 60px;
+}
+.title {
+    font-weight: bold;
+    font-size: 48px;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 #covidAlert{
-    background-color:darkorange;
-    color:black;
     text-align:left;
     font-size:24px;
     margin-top:0px;
     margin-bottom:0px;
+    border-bottom:solid;
 }
 
-#navigation{
+#navigation a{
+    font-weight: bold;
     text-decoration:none;
-    font-weight:bold;
-    color:black;
-    border-top:solid;
-    margin-bottom:24px;
+}
+    #navigation a:hover, #navigation a:focus, #navigation a:active {
+        text-decoration: none;
+    }
+
+nav ul {
+    padding:0;
+    margin-top:0;
+    margin-bottom:0;
+}
+
+nav ul li{
+    display:inline-block;
+}
+nav ul li a{
+    display:block;
+    padding-right:25px;
 }
 #socialMedia {
-    padding: 10px;
     font-size: 30px;
     text-align: right;    
     text-decoration: none;
@@ -42,5 +58,10 @@
     font-style:italic;
     border:solid;
     clear:both;
+    margin-top:0px;
 }
 
+main{
+    margin-top:0px;
+    margin-bottom:0px;
+}

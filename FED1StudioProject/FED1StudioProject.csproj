@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Class.html" />
+    <Content Include="css\colors.css" />
     <Content Include="css\general.css" />
     <Content Include="css\index.css" />
     <Content Include="images\facebook1.png" />

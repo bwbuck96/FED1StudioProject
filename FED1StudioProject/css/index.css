@@ -1,14 +1,8 @@
-﻿h3 {
-    background-color: dimgray;
-    font-weight: bold;
-    color: black;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
+﻿
 #aboutText {
-    color: black;
     font-size: 24px;
     text-decoration: underline;
+    margin-top:0px;
 }
 
 #why {
@@ -23,6 +17,7 @@
     margin-right: 30px;
     margin-left: 25px;
     border: 1px;
+
 }
 #whyImage {
     float: left;
@@ -40,10 +35,6 @@
     border:solid;
 }
 
-#aboutParagraph {
-    color: black;
-    text-decoration: none;
-}
 #creativity{
    text-align:center;
 }
@@ -54,4 +45,8 @@
 #foot{
     padding-top:50px;
     clear:both;
+}
+
+h2{
+    margin-top:0px;
 }
