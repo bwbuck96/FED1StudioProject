@@ -6,13 +6,7 @@
     margin-bottom:0px;
 
 }
-.tagLine {
-    font-weight: bold;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-left: 60px;
-}
-.title {
+#headerOverlay {
     font-weight: bold;
     font-size: 48px;
     text-align: left;
@@ -64,4 +58,24 @@ nav ul li a{
 main{
     margin-top:0px;
     margin-bottom:0px;
+}
+
+#headerOverlay {
+    background-image: url('../images/horse.jpg');
+    background: no-repeat;
+    background-size: 90px;
+    background-position: 3% center;
+    padding: 2em;
+    background-color: #3B668C;
+}
+header h1, header p {
+    /* We are clearing the background image area with the styling in this area*/
+    margin: 0px 0px 0px 0px;
+}
+header h1 {
+    text-align: left;
+    letter-spacing: 0.1em;
+}
+header {
+    border-radius: 5px;
 }

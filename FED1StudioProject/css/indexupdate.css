@@ -1,0 +1,116 @@
+﻿/*#region Header*/
+/*/#headerOverlay {
+    background-image: url('../images/school house.png');
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: 3% center;
+    padding: 2em;
+    TODO -- Figure out how to make image layer with gradient for Logo addition
+}/*/
+header{
+    margin-bottom:25px;
+}
+.header {
+    background-color: #F0F0F2;
+    color: #03658C;
+    margin: 0;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0d0d0d+0,207cca+70,025e73+100,207cca+101 */
+    background: rgb(13,13,13); /* Old browsers */
+    background: -moz-linear-gradient(45deg, rgba(13,13,13,1) 0%, rgba(32,124,202,1) 70%, rgba(2,94,115,1) 100%, rgba(32,124,202,1) 101%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, rgba(13,13,13,1) 0%,rgba(32,124,202,1) 70%,rgba(2,94,115,1) 100%,rgba(32,124,202,1) 101%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, rgba(13,13,13,1) 0%,rgba(32,124,202,1) 70%,rgba(2,94,115,1) 100%,rgba(32,124,202,1) 101%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d0d0d', endColorstr='#207cca',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    padding: 0;
+    border-top: solid black;
+    border-left: solid black;
+    border-right: solid black;
+
+}
+
+    .header h2 {
+        color: #03658C;
+        font-size: 1.5em;
+        ;
+        padding: 0;
+        margin: 0px;
+    }
+
+    .header h1 {
+        margin: 0px;
+        padding: 0;
+    }
+
+    .header ul li {
+        list-style: none;
+        text-align: right;
+        display: inline-block;
+    }
+
+        .header ul li a {
+            padding: .4em 1em;
+            display: block;
+            margin: 0;
+        }
+
+.covidAlert {
+    font-size: 1em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-bottom: solid;
+    border-left: solid;
+    border-right: solid;
+    background-color: #FF6408;
+}
+
+    .covidAlert h3 {
+        margin: 0px;
+    }
+    /*#endregion Header*/
+/*#region Navigation*/
+.navigation a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+    .navigation a:hover, #navigation a:focus, #navigation a:active {
+        text-decoration: none;
+        background-color: midnightblue;
+        color: #03658C;
+    }
+
+nav {
+    border-right: solid black;
+    border-left: solid black;
+    border-bottom: solid black;
+    background-color: #9AA6AD;
+}
+nav ul {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+    nav ul li {
+        display: inline-block;
+    }
+
+        nav ul li a {
+            display: block;
+            padding-right: 25px;
+        }
+/*#endregion Navigation*/
+body {
+    background-size: cover;
+    background: url(/images/horse.jpg) no-repeat center center fixed;
+}
+/*#region Main*/
+main {
+    background-color: rgba(211, 211, 211, 0.9) !important;
+}
+/*#endregion Main*/
+/*#region Footer*/
+.footer{
+    text-align:center;
+    font-style:italic;
+}
+/*#endregion Footer*/
