@@ -1,12 +1,4 @@
 ﻿/*#region Header*/
-/*/#headerOverlay {
-    background-image: url('../images/school house.png');
-    background-repeat: no-repeat;
-    background-size: 100px;
-    background-position: 3% center;
-    padding: 2em;
-    TODO -- Figure out how to make image layer with gradient for Logo addition
-}/*/
 header{
     margin-bottom:25px;
 }
@@ -30,14 +22,13 @@ header{
     .header h2 {
         color: #03658C;
         font-size: 1.5em;
-        ;
-        padding: 0;
+        padding:0px 0px 0px 1px;
         margin: 0px;
     }
 
     .header h1 {
         margin: 0px;
-        padding: 0;
+        padding: 0px 0px 0px 1px;
     }
 
     .header ul li {
@@ -66,6 +57,13 @@ header{
         margin: 0px;
     }
     /*#endregion Header*/
+/*#region Logo*/
+.logo{
+    height:48px;
+    width:48px;
+    float:left;
+}
+/*#endregion*/
 /*#region Navigation*/
 .navigation a {
     font-weight: bold;
@@ -96,21 +94,77 @@ nav ul {
 
         nav ul li a {
             display: block;
-            padding-right: 25px;
+            padding-right:25px;            
         }
 /*#endregion Navigation*/
-body {
-    background-size: cover;
-    background: url(/images/horse.jpg) no-repeat center center fixed;
+/*#region Social Media*/
+.socialMedia{
+    float:right;
+    box-sizing:border-box;
+    margin:0;
 }
-/*#region Main*/
-main {
-    background-color: rgba(211, 211, 211, 0.9) !important;
+
+.socialMedia ul{
+    margin:0;
+    padding:0;
 }
-/*#endregion Main*/
+/*#endregion*/
+/*#region Floating Pictures*/
+.headshots{
+    float:left;
+    height:200px;
+    width:200px;
+}
+#listHeader{
+    list-style:none;
+}
+#listHeader img{
+    margin-right: 20px;
+}
+.names{
+    font-size:2em;
+}
+.bio{
+    list-style:none;
+}
+/*#endregion*/
 /*#region Footer*/
 .footer{
     text-align:center;
     font-style:italic;
 }
 /*#endregion Footer*/
+/*#region Aside*/
+#htmlColumnLeft{
+    margin-right:25%;
+    border-right:1px solid black; /*change border color to fit theme*/
+}
+#htmlColumnRight{
+    width:25%;
+    float:right;
+}
+#asideHeader{
+
+}
+main aside a{
+    text-decoration:none;
+    font-size:1.5em;
+    line-height:2em;
+}
+/*#endregion Aside*/
+.clear {
+    clear: both;
+}
+main {
+    background-color: rgba(211, 211, 211, 0.9) !important;
+}
+
+body {
+    background-size: cover;
+    background: url(/images/horse.jpg) no-repeat center center fixed;
+}
+
+main h2 {
+    font-size: 3em;
+    text-align: center;
+}
