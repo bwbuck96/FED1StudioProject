@@ -130,21 +130,56 @@ nav ul {
 /*#endregion*/
 /*#region Footer*/
 .footer{
-    text-align:center;
+    text-align:left;
     font-style:italic;
+    margin-top:25px;
+    padding:25px;
+    border:2px solid black;
+    border-collapse:collapse;
 }
+.footer {
+    background-color: #F0F0F2;
+    color: #03658C;
+    margin: 0;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0d0d0d+0,207cca+70,025e73+100,207cca+101 */
+    background: rgb(13,13,13); /* Old browsers */
+    background: -moz-linear-gradient(45deg, rgba(13,13,13,1) 0%, rgba(32,124,202,1) 70%, rgba(2,94,115,1) 100%, rgba(32,124,202,1) 101%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, rgba(13,13,13,1) 0%,rgba(32,124,202,1) 70%,rgba(2,94,115,1) 100%,rgba(32,124,202,1) 101%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, rgba(13,13,13,1) 0%,rgba(32,124,202,1) 70%,rgba(2,94,115,1) 100%,rgba(32,124,202,1) 101%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d0d0d', endColorstr='#207cca',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.footer ul li {
+    list-style: none;
+    text-align: right;
+    display: inline-block;
+}
+
+    .footer ul li a {
+        padding: .4em 1em;
+        display: block;
+        margin: 0;
+    }
 /*#endregion Footer*/
 /*#region Aside*/
-#htmlColumnLeft{
-    margin-right:25%;
-    border-right:1px solid black; /*change border color to fit theme*/
+#htmlColumnLeft {
+    margin-right: 25%;
 }
-#htmlColumnRight{
-    width:25%;
-    float:right;
+article section h2{
+    margin-top:0;
+    padding-top:25px;
+}
+article section{
+    border-right:2px solid black;
+    margin-bottom:0;
+    padding-bottom:25px;
+}
+
+#htmlColumnRight {
+    width: 25%;
+    float: right;
 }
 #asideHeader{
-
+    position:relative;
 }
 main aside a{
     text-decoration:none;
@@ -152,19 +187,86 @@ main aside a{
     line-height:2em;
 }
 /*#endregion Aside*/
+/*#region Index*/
+.indexImgLeft{
+    width:300px;
+    height:295px;
+    float:left;
+    margin-right:1.7em;
+    margin-left:2em;
+    margin-top:1.9em;
+    background-color:white;
+}
+.indexImgLeft-2 {
+    width: 720px;
+    height: 500px;
+    float: left;
+    margin-right: 1.7em;
+    margin-left: 2em;
+    margin-top: 0;
+    background-color:white;
+}
+.indexImgRight {
+    width: 720px;
+    height: 500px;
+    float: right;
+    margin-right: 1.7em;
+    margin-left: 2em;
+    margin-top: 0;
+    background-color:white;
+}
+#aboutHead{
+    text-align:left;
+    text-decoration:underline;
+    font-size:2em;
+}
+.aboutHead2{
+    text-align:left;
+    font-size:2em;
+    margin-left:1.7em;
+    margin-bottom:0;
+}
+.aboutText{
+    margin-left:3.4em;
+}
+/*#endregion Index*/
+/*#region Contact*/
+.contact{
+    list-style:none;
+}
+#contactHead{
+    font-size:3.5em;
+    font-weight:bold;
+    text-align:center;
+    margin-top:.5em;
+}
+main article section ul{
+    display:inline-block;
+}
+main article section ul li{
+    list-style:none;
+    text-align:left;
+    margin-left:300px;
+    font-size:3em;
+    border:2px solid black;
+    margin-bottom:.5em;
+}
+/*#endregion Contact*/
 .clear {
     clear: both;
 }
 main {
     background-color: rgba(211, 211, 211, 0.9) !important;
+    border:2px solid black;
+    border-collapse:collapse;
 }
 
 body {
-    background-size: cover;
-    background: url(/images/horse.jpg) no-repeat center center fixed;
+    background-size: contain;
+    background: url('/images/background - Slate.jpg') no-repeat center center fixed;
 }
 
 main h2 {
-    font-size: 3em;
+    font-size: 2.5em;
     text-align: center;
 }
