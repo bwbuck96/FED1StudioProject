@@ -60,54 +60,307 @@
     <main>
         <article>
             <section>
-                <h3>Class Subjects</h3>
-                <div id="topic1">
-                    <h4><img class="topicImg1" src="/images/school house.png" />Class Topic 1</h4>
-                    <p>
-                        That jerk from finance really threw me under the bus. Closing these latest prospects is like putting socks on an octopus parallel path and UX, or let's pressure test this. Roll back strategy. Horsehead offer zeitgeist, so strategic high-level 30,000 ft view nor who's responsible for the ask for this request?.
-                    </p>
+                <h3 id="classHead">Class Subjects</h3>
+                <div class="row">
+                    <!-- The link listed here makes the entire DIV function as a "onclick" action for the javascript function below<a onclick="toggleTable();" href="#">-->
+                    <div class="column">
+                        <img class="thumbnail" src="/images/man painter.jpg" />
+                        <h4>Painting 1</h4>
+                        <p>This piece of canvas is your world. When you do it your way you can go anywhere you choose. Let your heart take you to wherever you want to be. Trees grow however makes them happy. It is a lot of fun. The only prerequisite is that it makes you happy. If it makes you happy then it's good.</p>
+                    </div>
+                    <!--</a>-->
+                    <!-- The link listed here makes the entire DIV function as a "onclick" action for the javascript function below
+            <a onclick="toggleTable();" href="#"> -->
+                    <div class="column">
+                        <img class="thumbnail" src="/images/man pottery.jpg" />
+                        <h4>Pottery 1</h4>
+                        <p>This piece of canvas is your world. When you do it your way you can go anywhere you choose. Let your heart take you to wherever you want to be. Trees grow however makes them happy. It is a lot of fun. The only prerequisite is that it makes you happy. If it makes you happy then it's good.</p>
+                    </div>
+                    <!-- </a>-->
+                    <!-- The link listed here makes the entire DIV function as a "onclick" action for the javascript function below
+            <a onclick="toggleTable();" href="#"> -->
+                    <div class="column">
+                        <img class="thumbnail" src="/images/man sculptor.jpg" />
+                        <h4>Sculpting 1</h4>
+                        <p>This piece of canvas is your world. When you do it your way you can go anywhere you choose. Let your heart take you to wherever you want to be. Trees grow however makes them happy. It is a lot of fun. The only prerequisite is that it makes you happy. If it makes you happy then it's good.</p>
+                    </div>
+                    <!-- </a>-->
                 </div>
-                <div id="topic2">
-                    <h4>Class Topic 2</h4>
-                    <p>
-                        That jerk from finance really threw me under the bus. Closing these latest prospects is like putting socks on an octopus parallel path and UX, or let's pressure test this. Roll back strategy. Horsehead offer zeitgeist, so strategic high-level 30,000 ft view nor who's responsible for the ask for this request?.
-                    </p>
+                <div class="column">
+                    <img class="thumbnail" src="/images/man painter.jpg" />
+                    <h4>Painting 2</h4>
+                    <p>This piece of canvas is your world. When you do it your way you can go anywhere you choose. Let your heart take you to wherever you want to be. Trees grow however makes them happy. It is a lot of fun. The only prerequisite is that it makes you happy. If it makes you happy then it's good.</p>
                 </div>
-                <div id="topic3">
-                    <h4>Class Topic 3</h4>
-                    <p>
-                        That jerk from finance really threw me under the bus. Closing these latest prospects is like putting socks on an octopus parallel path and UX, or let's pressure test this. Roll back strategy. Horsehead offer zeitgeist, so strategic high-level 30,000 ft view nor who's responsible for the ask for this request?.
-                    </p>
+                <div class="column">
+                    <img class="thumbnail" src="/images/man pottery.jpg" />
+                    <h4>Pottery 2</h4>
+                    <p>This piece of canvas is your world. When you do it your way you can go anywhere you choose. Let your heart take you to wherever you want to be. Trees grow however makes them happy. It is a lot of fun. The only prerequisite is that it makes you happy. If it makes you happy then it's good.</p>
                 </div>
-                <div id="topic4">
-                    <h4>Class Topic 4</h4>
-                    <p>
-                        That jerk from finance really threw me under the bus. Closing these latest prospects is like putting socks on an octopus parallel path and UX, or let's pressure test this. Roll back strategy. Horsehead offer zeitgeist, so strategic high-level 30,000 ft view nor who's responsible for the ask for this request?.
-                    </p>
+                <div class="column">
+                    <img class="thumbnail" src="/images/man sculptor.jpg" />
+                    <h4>Sculpting 2</h4>
+                    <p>This piece of canvas is your world. When you do it your way you can go anywhere you choose. Let your heart take you to wherever you want to be. Trees grow however makes them happy. It is a lot of fun. The only prerequisite is that it makes you happy. If it makes you happy then it's good.</p>
                 </div>
-                <div id="topic4">
-                    <h4>Class Topic 4</h4>
-                    <p>
-                        That jerk from finance really threw me under the bus. Closing these latest prospects is like putting socks on an octopus parallel path and UX, or let's pressure test this. Roll back strategy. Horsehead offer zeitgeist, so strategic high-level 30,000 ft view nor who's responsible for the ask for this request?.
-                    </p>
-                </div>
-                <div id="topic5">
-                    <h4>Class Topic 5</h4>
-                    <p>
-                        That jerk from finance really threw me under the bus. Closing these latest prospects is like putting socks on an octopus parallel path and UX, or let's pressure test this. Roll back strategy. Horsehead offer zeitgeist, so strategic high-level 30,000 ft view nor who's responsible for the ask for this request?.
-                    </p>
-                </div>
-                <div id="topic6">
-                    <h4>Class Topic 6</h4>
-                    <p>
-                        That jerk from finance really threw me under the bus. Closing these latest prospects is like putting socks on an octopus parallel path and UX, or let's pressure test this. Roll back strategy. Horsehead offer zeitgeist, so strategic high-level 30,000 ft view nor who's responsible for the ask for this request?.
-                    </p>
-                </div>
+                <div class="clear"></div>
             </section>
-            <!-- TODO consolidate avl/filled course groups into one "Courses" group. Better UX.  -->
+            <!-- TODO create table section below this line  -->
             <section>
-                <h3>Filled Courses</h3>
+                <div>
+                    <table class="tb" id="sculptTable">
+                        <thead>
+                            <tr>
+                                <!--the cell below "accounts for" 3 cells by merging them using colspan-->
+                                <th  id="tHead1" colspan="4">Sculpting 1- Class List</th>
+                            </tr>
+                            <tr id="tHead2">
+                                <th >#</th>
+                                <th>Class Name</th>
+                                <th>Instructor</th>
+                                <th>Meets</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Sculpting 101</td>
+                                <td>Gerry Smith</td>
+                                <td>8:00 a.m.</td>
+                            </tr>
+
+                            <tr>
+                                <td>2</td>
+                                <td>Sculpting 102</td>
+                                <td>Gerry Smith</td>
+                                <td>10:00 a.m.</td>
+                            </tr>
+
+                            <tr>
+                                <td>3</td>
+                                <td>Sculpting 103</td>
+                                <td>Gerry Smith</td>
+                                <td>12:00 p.m.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div>
+                    <table class="tb" id="paintTable">
+                        <thead>
+                            <tr>
+                                <!--the cell below "accounts for" 3 cells by merging them using colspan-->
+                                <th  id="tHead1" colspan="4">Painting 1- Class List</th>
+                            </tr>
+                            <tr id="tHead2">
+                                <th>#</th>
+                                <th>Class Name</th>
+                                <th>Instructor</th>
+                                <th>Meets</th>
+                            </trid="tHead2">
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Painting 101</td>
+                                <td>Marilyn Monrow</td>
+                                <td>8:00 a.m.</td>
+                            </tr>
+
+                            <tr>
+                                <td>2</td>
+                                <td>Painting 102</td>
+                                <td>Marilyn Monrow</td>
+                                <td>10:00 a.m.</td>
+                            </tr>
+
+                            <tr>
+                                <td>3</td>
+                                <td>Painting 103</td>
+                                <td>Marilyn Monrow</td>
+                                <td>12:00 p.m.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div>
+                    <table class="tb" id="potteryTable">
+                        <thead>
+                            <tr>
+                                <!--the cell below "accounts for" 3 cells by merging them using colspan-->
+                                <th  id="tHead1" colspan="4">Pottery 1- Class List</th>
+                            </tr>
+                            <tr id="tHead2">
+                                <th>#</th>
+                                <th>Class Name</th>
+                                <th>Instructor</th>
+                                <th>Meets</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Pottery 101</td>
+                                <td>Ron Weaselby</td>
+                                <td>8:00 a.m.</td>
+                            </tr>
+
+                            <tr>
+                                <td>2</td>
+                                <td>Pottery 102</td>
+                                <td>Ron Weaselby</td>
+                                <td>10:00 a.m.</td>
+                            </tr>
+
+                            <tr>
+                                <td>3</td>
+                                <td>Pottery 103</td>
+                                <td>Ron Weaselby</td>
+                                <td>12:00 p.m.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="clear"></div>
+
+                <!-- Below is a JavaScript function to hide/show a table. Problem around showing multiple tables as it runs a recursive call(?) (think like flipping a light swtich off and on multiple times in a row. Lights are on/off/on/off so by the end, everything is "off" or hidden again.)
+                    <script>
+                        function toggleTable() {
+                            var lTable = document.getElementById("paintTable");
+                            lTable.style.display = (lTable.style.display == "table") ? "none" : "table";
+                        }
+                        </script>
+        -->
             </section>
+            <section>
+                <div>
+                    <table class="tb" id="sculptTable">
+                        <thead>
+                            <tr>
+                                <!--the cell below "accounts for" 3 cells by merging them using colspan-->
+                                <th  id="tHead1"  colspan="4">Sculpting 2- Class List</th>
+                            </tr>
+                            <tr id="tHead2">
+                                <th>#</th>
+                                <th>Class Name</th>
+                                <th>Instructor</th>
+                                <th>Meets</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Sculpting 101</td>
+                                <td>Gerry Smith</td>
+                                <td>8:00 a.m.</td>
+                            </tr>
+
+                            <tr>
+                                <td>2</td>
+                                <td>Sculpting 102</td>
+                                <td>Gerry Smith</td>
+                                <td>10:00 a.m.</td>
+                            </tr>
+
+                            <tr>
+                                <td>3</td>
+                                <td>Sculpting 103</td>
+                                <td>Gerry Smith</td>
+                                <td>12:00 p.m.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div>
+                    <table class="tb" id="paintTable">
+                        <thead>
+                            <tr>
+                                <!--the cell below "accounts for" 3 cells by merging them using colspan-->
+                                <th  id="tHead1"  colspan="4">Painting 2- Class List</th>
+                            </tr>
+                            <tr id="tHead2">
+                                <th>#</th>
+                                <th>Class Name</th>
+                                <th>Instructor</th>
+                                <th>Meets</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Painting 101</td>
+                                <td>Marilyn Monrow</td>
+                                <td>8:00 a.m.</td>
+                            </tr>
+
+                            <tr>
+                                <td>2</td>
+                                <td>Painting 102</td>
+                                <td>Marilyn Monrow</td>
+                                <td>10:00 a.m.</td>
+                            </tr>
+
+                            <tr>
+                                <td>3</td>
+                                <td>Painting 103</td>
+                                <td>Marilyn Monrow</td>
+                                <td>12:00 p.m.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div>
+                    <table class="tb" id="potteryTable">
+                        <thead>
+                            <tr>
+                                <!--the cell below "accounts for" 3 cells by merging them using colspan-->
+                                <th  id="tHead1"  colspan="4">Pottery 2- Class List</th>
+                            </tr>
+                            <tr id="tHead2">
+                                <th>#</th>
+                                <th>Class Name</th>
+                                <th>Instructor</th>
+                                <th>Meets</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Pottery 101</td>
+                                <td>Ron Weaselby</td>
+                                <td>8:00 a.m.</td>
+                            </tr>
+
+                            <tr>
+                                <td>2</td>
+                                <td>Pottery 102</td>
+                                <td>Ron Weaselby</td>
+                                <td>10:00 a.m.</td>
+                            </tr>
+
+                            <tr>
+                                <td>3</td>
+                                <td>Pottery 103</td>
+                                <td>Ron Weaselby</td>
+                                <td>12:00 p.m.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="clear"></div>
+
+                <!-- Below is a JavaScript function to hide/show a table. Problem around showing multiple tables as it runs a recursive call(?) (think like flipping a light swtich off and on multiple times in a row. Lights are on/off/on/off so by the end, everything is "off" or hidden again.)
+                    <script>
+                        function toggleTable() {
+                            var lTable = document.getElementById("paintTable");
+                            lTable.style.display = (lTable.style.display == "table") ? "none" : "table";
+                        }
+                        </script>
+        -->
+            </section>
+
         </article>
     </main>
     <footer class="footer">
