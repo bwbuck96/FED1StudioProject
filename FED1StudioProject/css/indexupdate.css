@@ -94,7 +94,7 @@ nav ul {
 
         nav ul li a {
             display: block;
-            padding-right:25px;            
+            padding:1.2em;           
         }
 /*#endregion Navigation*/
 /*#region Social Media*/
@@ -108,6 +108,13 @@ nav ul {
     margin:0;
     padding:0;
 }
+
+.socialMedia a:hover, #navigation a:focus, #navigation a:active {
+    text-decoration: none;
+    background-color: midnightblue;
+    color: #03658C;
+}
+
 /*#endregion*/
 /*#region Floating Pictures*/
 .headshots{
@@ -123,10 +130,16 @@ nav ul {
 }
 .names{
     font-size:2em;
+    margin-top:2em;
+}
 }
 .bio{
     list-style:none;
 }
+.par {
+    padding-right: 2em;
+}
+
 /*#endregion*/
 /*#region Footer*/
 .footer{
@@ -138,7 +151,6 @@ nav ul {
     border-collapse:collapse;
 }
 .footer {
-    background-color: #F0F0F2;
     color: #03658C;
     margin: 0;
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0d0d0d+0,207cca+70,025e73+100,207cca+101 */
@@ -159,6 +171,12 @@ nav ul {
         display: block;
         margin: 0;
     }
+
+.goToTop {
+    text-align: center;
+    color: #03658C;
+    clear:both;
+}
 /*#endregion Footer*/
 /*#region Aside*/
 #htmlColumnLeft {
@@ -228,6 +246,7 @@ main aside a{
 }
 .aboutText{
     margin-left:3.4em;
+    padding-right:3.4em;
 }
 /*#endregion Index*/
 /*#region Contact*/
